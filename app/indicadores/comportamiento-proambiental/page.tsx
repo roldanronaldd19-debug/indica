@@ -234,7 +234,7 @@ export default function ComportamientoProambientalPage() {
       setCurrentData(data || []);
       
       // Extraer ubicaciones únicas
-      const lugaresUnicos = [...new Set(data?.map(r => r.lugar).filter(Boolean))] as string[];
+      const lugaresUnicos = Array.from(new Set(data?.map(r => r.lugar).filter(Boolean))) as string[];
       setFilterOptions(prev => ({ ...prev, lugares: lugaresUnicos.sort() }));
       
     } catch (error) {
@@ -1346,4 +1346,5 @@ export default function ComportamientoProambientalPage() {
   );
 
 }
+
 
