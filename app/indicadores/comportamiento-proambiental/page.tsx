@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState, useCallback } from "react";
-import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend, ArcElement, PointElement, LineElement, ChartData } from "chart.js";
+import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend, ArcElement, PointElement, LineElement } from "chart.js";
 import ChartDataLabels from "chartjs-plugin-datalabels";
 import { createClient } from "@/lib/supabase/client";
 
@@ -1344,4 +1344,5 @@ export default function ComportamientoProambientalPage() {
       </main>
     </div>
   );
+
 }
