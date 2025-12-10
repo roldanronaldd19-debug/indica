@@ -1,4 +1,3 @@
-/* Estilos globales básicos */
 * {
   margin: 0;
   padding: 0;
@@ -7,4 +6,5 @@
 
 html, body {
   height: 100%;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
 }
