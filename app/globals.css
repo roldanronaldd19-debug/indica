@@ -1,0 +1,10 @@
+/* Este archivo puede estar vacío o contener estilos globales básicos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
